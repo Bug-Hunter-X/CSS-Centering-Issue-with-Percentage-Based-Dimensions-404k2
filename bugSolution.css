@@ -1,0 +1,20 @@
+The following CSS code corrects the centering issue using flexbox:
+
+```css
+div {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+}
+```
+
+By setting `display: flex` on the parent and using `justify-content: center;` and `align-items: center;`, the blue square will now be precisely centered regardless of the percentage-based dimensions.
